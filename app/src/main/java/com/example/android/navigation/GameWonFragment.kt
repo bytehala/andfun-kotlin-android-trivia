@@ -37,8 +37,6 @@ class GameWonFragment : Fragment() {
                 Navigation.createNavigateOnClickListener(R.id.action_gameWonFragment_to_gameFragment)
         )
 
-        (activity as AppCompatActivity).supportActionBar?.title = getString(R.string.congratulations)
-
         return binding.root
     }
 }

@@ -36,8 +36,6 @@ class GameOverFragment : Fragment() {
                 Navigation.createNavigateOnClickListener(R.id.action_gameOverFragment_to_gameFragment)
                 )
 
-        (activity as AppCompatActivity).supportActionBar?.title = getString(R.string.game_over)
-
         return binding.root
     }
 }
