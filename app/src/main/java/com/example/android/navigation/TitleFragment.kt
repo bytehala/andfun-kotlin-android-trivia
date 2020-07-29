@@ -33,7 +33,7 @@ class TitleFragment : Fragment() {
         // Another way is to use the OnClickListener object created by Navigation class
         // Notice that we're using parentheses, not braces since the 1st and 2nd way both use anonymous functions
         binding.playButton.setOnClickListener(
-            Navigation.createNavigateOnClickListener(R.id.action_titleFragment_to_gameFragment)
+            Navigation.createNavigateOnClickListener(TitleFragmentDirections.actionTitleFragmentToGameFragment())
         )
 
         setHasOptionsMenu(true)
